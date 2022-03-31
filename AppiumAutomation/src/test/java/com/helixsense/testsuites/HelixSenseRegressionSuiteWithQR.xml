@@ -1,0 +1,83 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="androidtestsuite">
+
+	<test name="ValidateQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+     
+      <classes>
+			<class
+				name="HelixSenseTests.ValidateQRCodeTest" />
+		</classes>
+    </test>
+    
+ 
+    
+    <test name="AssetRegistryByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+  
+     <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByQRCodeTest" />
+		</classes>
+    </test>
+    
+    
+    
+    <test name="HelpDeskByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+      
+    <classes>
+			<class
+				name="HelixSenseTests.HelpDeskByQRCodeTest" />
+		</classes>
+    </test>
+    
+    
+    
+    <test name="AssetRegistryByQRScrapTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+       
+   <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByQRScrapTest" />
+		</classes>
+    </test>
+   
+    
+    <test name="HelixSearchByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+     
+   <classes>
+			<class
+				name="HelixSenseTests.HelixSearchByQRCodeTest" />
+		</classes>
+    </test>
+     
+       
+    <test name="Helix IncidentRaiseTicketTest by QR">
+    
+     <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+		<classes>
+			<class
+				name="HelixSenseTests.IncidentRaiseTicketTest" />
+		</classes>
+	</test>	
+   <test name="Helix mail room  by QR">
+    
+     <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+		<classes>
+			<class
+				name="HelixSenseTests.MailRoomWithQRCodeTest" />
+		</classes>
+	</test>		
+    
+     	
+</suite>

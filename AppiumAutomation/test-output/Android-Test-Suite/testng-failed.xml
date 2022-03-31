@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Android-Test-Suite]">
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.LoginTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="HelixSenseLogIn"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test thread-count="5" name="AssetRegistryByLocationTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AssetRegistryByLocationTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="AssetRegistrySearchByLocation"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AssetRegistryByLocationTest -->
+    </classes>
+  </test> <!-- AssetRegistryByLocationTest(failed) -->
+  <test thread-count="5" name="AssetRegistryByNameTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AssetRegistryByNameTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="AssetRegistryByNameTest"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AssetRegistryByNameTest -->
+    </classes>
+  </test> <!-- AssetRegistryByNameTest(failed) -->
+  <test thread-count="5" name="ValidateAssestsTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.ValidateAssestsTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="ValidateAssests"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.ValidateAssestsTest -->
+    </classes>
+  </test> <!-- ValidateAssestsTest(failed) -->
+  <test thread-count="5" name="HelpDeskSearchAssetByLocationTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.HelpDeskSearchAssetByLocationTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="HelpDeskSearchAssetByLocation"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelpDeskSearchAssetByLocationTest -->
+    </classes>
+  </test> <!-- HelpDeskSearchAssetByLocationTest(failed) -->
+  <test thread-count="5" name="HelpDeskAssetByNameTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.HelpDeskAssetByNameTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyHelpDeskAssetByName"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelpDeskAssetByNameTest -->
+    </classes>
+  </test> <!-- HelpDeskAssetByNameTest(failed) -->
+  <test thread-count="5" name="HelpDeskTicketsTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.HelpDeskTicketsTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="VerifyHelpDeskTickets"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelpDeskTicketsTest -->
+    </classes>
+  </test> <!-- HelpDeskTicketsTest(failed) -->
+  <test thread-count="5" name="RaiseATicketForAssetTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.RaiseATicketForAssetTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyHelpdeskRaiseTicketByLocation"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.RaiseATicketForAssetTest -->
+    </classes>
+  </test> <!-- RaiseATicketForAssetTest(failed) -->
+  <test thread-count="5" name="IncidentRaiseTicketByLocationTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.IncidentRaiseTicketByLocationTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+          <include name="verifyIncidentManagementRaiseTicket"/>
+        </methods>
+      </class> <!-- HelixSenseTests.IncidentRaiseTicketByLocationTest -->
+    </classes>
+  </test> <!-- IncidentRaiseTicketByLocationTest(failed) -->
+  <test thread-count="5" name="HelpdeskRaiseTicketByLocationTest(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyHelpdeskRaiseTicketByLocation"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.HelpdeskRaiseTicketByLocationTest -->
+    </classes>
+  </test> <!-- HelpdeskRaiseTicketByLocationTest(failed) -->
+  <test thread-count="5" name="Inbound verification(failed)">
+    <parameter name="platformVersion" value="11"/>
+    <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+    <classes>
+      <class name="HelixSenseTests.AddInboundMailWithEmployeeTest">
+        <methods>
+          <include name="verifyAddInboundMailWithEmployee"/>
+          <include name="extentReportBeforeMethod"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="verifyWhetherInboundisCreated"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.AddInboundMailWithEmployeeTest -->
+    </classes>
+  </test> <!-- Inbound verification(failed) -->
+  <test thread-count="5" name="Helix IncidentRaiseTicketTest by QR(failed)">
+    <classes>
+      <class name="HelixSenseTests.IncidentRaiseTicketTest">
+        <methods>
+          <include name="extentReportBeforeMethod"/>
+          <include name="verifyIncidentManagementRaiseTicket"/>
+          <include name="testSetup"/>
+          <include name="extentReportBeforeClass"/>
+          <include name="extentReportAfterMethod"/>
+          <include name="testCleanUp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- HelixSenseTests.IncidentRaiseTicketTest -->
+    </classes>
+  </test> <!-- Helix IncidentRaiseTicketTest by QR(failed) -->
+</suite> <!-- Failed suite [Android-Test-Suite] -->

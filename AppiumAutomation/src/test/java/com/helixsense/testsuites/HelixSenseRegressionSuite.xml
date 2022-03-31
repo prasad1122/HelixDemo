@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HelixSenseMobile">
+
+
+     <test name="IncidentRaiseTicketByLocationTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+        
+  <classes>
+			<class
+				name="HelixSenseTests.IncidentRaiseTicketByLocationTest" />
+		</classes>
+    </test>
+    
+    
+     <test name="HelpdeskRaiseTicketByLocationTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest" />
+		</classes>
+    </test>
+    
+     <test name="Inbound verification with employee">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddInboundMailWithEmployeeTest" />
+		</classes>
+    </test>
+    
+     <test name="Inbound verification with department">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddInboundMailWithDepartmentTest" />
+		</classes>
+    </test>
+    
+    <test name="Outbound verification with employee">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddOutboundMailWithDepartmentTest" />
+		</classes>
+    </test>
+    
+     <test name="Outbound verification with department">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddOutboundMailWithEmployeeTest" />
+		</classes>
+    </test>
+     
+      <test name="Asset Registry Actions">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryActionsTest" />
+		</classes>
+    </test>
+     
+      <test name="Visitor Management">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.VisitorManagamentCheckInTest" />
+		</classes>
+    </test>
+    
+	
+</suite>

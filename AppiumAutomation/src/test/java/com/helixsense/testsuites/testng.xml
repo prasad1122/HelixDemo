@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Android-Test-Suite">
+
+    <test name="LoginTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+        
+       <classes>
+			<class
+				name="HelixSenseTests.LoginTest" />
+		</classes>
+    </test>
+    
+    <test name="AssetRegistryByLocationTest">
+    
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+       
+      <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByLocationTest" />
+		</classes>
+    </test>
+    
+      <test name="AssetRegistryByNameTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+     
+     <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByNameTest" />
+		</classes>
+    </test>
+    
+    
+     <test name="ValidateAssestsTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+       
+     <classes>
+			<class
+				name="HelixSenseTests.ValidateAssestsTest" />
+		</classes>
+    </test>
+    
+     <test name="HelpDeskSearchAssetByLocationTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+  
+    <classes>
+			<class
+				name="HelixSenseTests.HelpDeskSearchAssetByLocationTest" />
+		</classes>
+    </test>
+
+
+ <test name="HelpDeskAssetByNameTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+      
+   <classes>
+			<class
+				name="HelixSenseTests.HelpDeskAssetByNameTest" />
+		</classes>
+    </test>
+    
+    
+     <test name="HelpDeskTicketsTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+       
+   <classes>
+			<class
+				name="HelixSenseTests.HelpDeskTicketsTest" />
+		</classes>
+    </test>
+    
+     <test name="RaiseATicketForAssetTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+        
+  <classes>
+			<class
+				name="HelixSenseTests.RaiseATicketForAssetTest" />
+		</classes>
+    </test>
+    
+     <test name="IncidentRaiseTicketByLocationTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+        
+  <classes>
+			<class
+				name="HelixSenseTests.IncidentRaiseTicketByLocationTest" />
+		</classes>
+    </test>
+    
+    
+     <test name="HelpdeskRaiseTicketByLocationTest">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.HelpdeskRaiseTicketByLocationTest" />
+		</classes>
+    </test>
+    
+     <test name="Inbound verification with employee">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddInboundMailWithEmployeeTest" />
+		</classes>
+    </test>
+    
+     <test name="Inbound verification with department">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddInboundMailWithDepartmentTest" />
+		</classes>
+    </test>
+    
+    <test name="Outbound verification with employee">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddOutboundMailWithDepartmentTest" />
+		</classes>
+    </test>
+    
+     <test name="Outbound verification with department">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AddOutboundMailWithEmployeeTest" />
+		</classes>
+    </test>
+     
+      <test name="Asset Registry Actions">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryActionsTest" />
+		</classes>
+    </test>
+     
+      <test name="Visitor Management">
+         <parameter name="udid" value="LFMBYDSGYXDQCIJF"/>
+        <parameter name="platformVersion" value="11"/>
+    
+  <classes>
+			<class
+				name="HelixSenseTests.VisitorManagamentCheckInTest" />
+		</classes>
+    </test>
+    
+  <test name="ValidateQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+     
+      <classes>
+			<class
+				name="HelixSenseTests.ValidateQRCodeTest" />
+		</classes>
+    </test>
+    
+ 
+    
+    <test name="AssetRegistryByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+  
+     <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByQRCodeTest" />
+		</classes>
+    </test>
+    
+    
+    
+    <test name="HelpDeskByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+      
+    <classes>
+			<class
+				name="HelixSenseTests.HelpDeskByQRCodeTest" />
+		</classes>
+    </test>
+    
+    
+    
+    <test name="AssetRegistryByQRScrapTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+       
+   <classes>
+			<class
+				name="HelixSenseTests.AssetRegistryByQRScrapTest" />
+		</classes>
+    </test>
+   
+    
+    <test name="HelixSearchByQRCodeTest">
+         <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+     
+   <classes>
+			<class
+				name="HelixSenseTests.HelixSearchByQRCodeTest" />
+		</classes>
+    </test>
+     
+       
+    <test name="Helix IncidentRaiseTicketTest by QR">
+    
+     <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+		<classes>
+			<class
+				name="HelixSenseTests.IncidentRaiseTicketTest" />
+		</classes>
+	</test>	
+   <test name="Helix mail room  by QR">
+    
+     <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="12"/>
+		<classes>
+			<class
+				name="HelixSenseTests.MailRoomWithQRCodeTest" />
+		</classes>
+	</test>		
+    
+     
+</suite>
