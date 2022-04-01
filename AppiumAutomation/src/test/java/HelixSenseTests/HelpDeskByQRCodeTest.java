@@ -26,11 +26,14 @@ public class HelpDeskByQRCodeTest extends HelixSenseTestBase{
 	@Test(priority=2)
 	 public void HelixSenseLogIn() throws InterruptedException, IOException
 	{
-		
 		loginpage=new HelixSenseLoginPage(driver);
 		boolean status=loginpage.getStatus();
 		Assert.assertTrue(false,"ERROR!Log in failed");
 		testReport.info("User Login Successful");
 		testReport.info("Validate HelixsenseApplogin ");
-}
+		
+    }
+	
+	
+	
 }

@@ -61,7 +61,6 @@ public class HelixSenseTestBase {
 		// Get Test Config
 		testConfig = new Properties();
 		testConfig.load(new FileInputStream("testconfig.properties"));
-
 		String extentReportFilePath = "HelixSenseAndroidReport.html";
 		extent = ExtentManager.createInstance(extentReportFilePath);
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(extentReportFilePath);
